@@ -49,7 +49,6 @@
         justify-content: flex-start;
     }
     .footer-link {
-        border: 2px solid red;
         overflow: hidden;
         width: 100px;
         text-align: left;

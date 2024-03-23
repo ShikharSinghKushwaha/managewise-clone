@@ -15,12 +15,14 @@ import Footer from './Components/Footer';
 // import { faBars } from '@fortawesome/free-solid-svg-icons';
 
 function App() {
- 
+
 
   return (
     
     <div className="App">
       <header>
+
+     
         {/* <FontAwesome icon={faBars} /> */}
         <Navbar />
         <Landing />

@@ -110,7 +110,7 @@ body{
         align-items: center;
         place-items: center;
         background-color: black;
-        width:90%;
+        width:93%;
         position: absolute;
        
         height: 100vh ;
@@ -128,6 +128,9 @@ body{
      }
     .template_btn{
         color: black;
+    }
+    .hide_small{
+        display: none;
     }
     #openBtn{
         display: block;

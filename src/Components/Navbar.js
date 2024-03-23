@@ -21,7 +21,16 @@ function Navbar() {
               <div className='link_container'>
               <img src={ brand } alt='Logo' className='logo'/>
             
-            {open &&  <div className="responsive_container">       
+              <ul className='links hide_small'>
+              
+              <li><a href="#features">Features</a></li>
+              <li><a href="#faq">FAQ</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#testimonials">Testimonials</a></li>
+              <li><a href="#" className='template_btn' style={{color:'black'}}>Buy Template</a></li>
+              
+            </ul>
+            {open && <div className="responsive_container">   
                <ul className='links'>
               
                 <li><a href="#features">Features</a></li>
@@ -31,7 +40,7 @@ function Navbar() {
                 <li><a href="#" className='template_btn' style={{color:'black'}}>Buy Template</a></li>
                 
               </ul>
-              </div>} 
+              </div>}
               </div>
           </div>
 
